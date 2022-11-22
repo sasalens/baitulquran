@@ -338,7 +338,7 @@ p {
 
   .navbar-default .navbar-brand {
     color: #FFFFFF;
-		padding: 16px 15px !important;
+		padding: 16px 15px -20px 15px !important;
   }
 
 	.navbar-default .navbar-brand.nav-white {
@@ -611,6 +611,7 @@ font-family: Arial;
 	background: #0F5E1C;
 	border-color: #0F5E1C;
 	color: #FFFFFF;
+	margin-bottom: 20px;
 }
 
 .form .btn-action:hover {
@@ -855,7 +856,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app img {
-	margin: 0 auto;
+	margin: 30px 0 -80px 0;
 }
 
 
@@ -1380,18 +1381,20 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 37px;
 	font-weight: 900;
 	margin: 0 0 20px 0;
+	text-align: left;
 }
 
 .split-content p {
 	font-size: 16px;
 	line-height: 1.4;
 	color: #A1A1A1;
+	text-align: left;
 }
 
 .split-content ul {
 	list-style-type: disc;
 	display: inline-block;
-	margin: 30px 0 0 0;
+	margin-top: 30px;
 }
 
 .split-content ul li {
@@ -1399,16 +1402,17 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-size: 16px;
 	margin-bottom: 15px;
 	color: #A1A1A1;
+	text-align: left;
 }
 
 .split-features2 {
 	background: #FFFFFF;
-	padding: 50px 0 50px 0;
+	padding: 50px 20px;
 	overflow: hidden;
 }
 
 .second {
-padding: 120px 10px 50px 350px;
+padding: 80px 20px 20px 10px;
 }
 
 /*  --------------------------------------------------
@@ -1673,10 +1677,11 @@ padding: 120px 10px 50px 350px;
 	font-size: 37px;
     font-weight: 900;
     color: #454545;
+	margin: -30px 0 -80px 0;
 }
 
 .galeri img {
-	padding-top: 20px;
+	margin-top: 100px;
 }
 
 
