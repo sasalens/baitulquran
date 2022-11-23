@@ -1,0 +1,56 @@
+.wrapper .menu {
+    background-color: #fff;
+}
+
+.data-santri h1 {
+    font-size: 37px;
+    font-weight: 900;
+    margin: 0 0 30px 0;
+}
+
+.data-santri table {
+    font-family: open sans;
+}
+
+.data-santri table thead {
+    font-weight: 600;
+}
+
+.data-santri .tombol1 {
+    border: none;
+    border-radius: 30px;
+    background-color: #AC4425;
+    color: white;
+    margin-right: 10px;
+}
+
+.data-santri .tombol2 {
+    border: none;
+    border-radius: 30px;
+    background-color: #5F8D4E;
+    color: white;
+    margin-right: 10px;
+}
+
+.ubah .judul {
+    font-size: 37px;
+    font-weight: 900;
+    margin: 0 0 30px 0;
+}
+
+.ubahdata {
+    margin: 0 15%;
+}
+
+.ubah .edit {
+    font-family: open sans;
+}
+
+.ubah .edit .tombol {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color: #5F8D4E;
+    color: white;
+}

@@ -34,8 +34,8 @@
             <li><a class="page-scroll" href="#keunggulan">Keunggulan</a></li>
             <li><a class="page-scroll" href="#syarat">Syarat Pendaftaran</a></li>
             <li><a class="page-scroll" href="#jalur">Jalur Pendaftaran</a></li>
-            <li><a class="page-scroll" href="#galeri">Galeri</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
+            <li><a class="page-scroll" href="login.php">Login</a></li>
           </ul>
         </div>
       </div>
@@ -54,7 +54,7 @@
             <p class="wow fadeInUp" data-wow-delay="0.2s">IMTAQ SHIGHOR BAITUL QUR’AN WONOGIRI
               I’DADUL MU’ALIMIN WA TAHFIZHUL QUR’AN <br> (Program Tahfizhul Qur’an Setara SMP) Tahun Ajaran 2023/2024.<br> KUOTA TERBATAS HANYA UNTUK 30 SANTRI PUTRA!</p>
             <div class="sub-form wow fadeInUp" data-wow-delay="0.3s">
-              <a href="#" class="btn btn-action wow fadeInUp" target="_blank">Daftar Sekarang</a> 
+              <a href="tambah.php" class="btn btn-action wow fadeInUp" target="_blank">Daftar Sekarang</a> 
               <a href="https://drive.google.com/file/d/1JRj7aAsbujbUYwhPHdvvaRcXzeh-brk_/view?usp=share_link" class="btn btn-action wow fadeInUp" target="_blank">Unduh Brosur</a> 
             </div>
           </div>
@@ -245,7 +245,7 @@
       <div class="container">
         <div class="sub-inner">
           <h1 class="wow fadeInUp">Penerimaan Santri Baru Imtaq Shighor Baitul Qur'an Wonogiri I'dadul Mu'alimin Wa Tahfizhul Qur'an</h1>
-          <a href="#" class="btn btn-action wow fadeInUp" target="_blank">Daftar Sekarang</a> 
+          <a href="tambah.php" class="btn btn-action wow fadeInUp" target="_blank">Daftar Sekarang</a> 
           <a href="https://drive.google.com/file/d/1JRj7aAsbujbUYwhPHdvvaRcXzeh-brk_/view?usp=share_link" class="btn btn-action wow fadeInUp" target="_blank">Unduh Brosur</a> 
         </div>
       </div>
