@@ -50,6 +50,7 @@
     <div class="hero-section">
       <div class="container nopadding">
             <h1>Data Santri</h1>
+            <a class="btn btn-default" href="tambah.php" role="button" style="font-family: open sans; border-radius: 30px; margin-bottom: 20px;">Tambah Data</a>
             <table class="table table-hover">
             <thead>
                 <tr>
