@@ -35,7 +35,7 @@
             <li><a class="page-scroll" href="#syarat">Syarat Pendaftaran</a></li>
             <li><a class="page-scroll" href="#jalur">Jalur Pendaftaran</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
-            <li><a class="page-scroll" href="login.php">Login</a></li>
+            <li><a class="page-scroll" href="login.php">Login  <i class="ion-log-in"></i></a></li>
           </ul>
         </div>
       </div>

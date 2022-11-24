@@ -27,11 +27,11 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand page-scroll" href="#main"><img src="konten/logo.png" width="130" height="50" alt="iLand" /></a> </div>
+          <a class="navbar-brand page-scroll" href="index.php"><img src="konten/logo.png" width="130" height="50" alt="iLand" /></a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a class="page-scroll" href="#main">Home</a></li>
+            <li><a class="page-scroll" href="index.php">Home</a></li>
             <li><a class="page-scroll" href="#keunggulan">Keunggulan</a></li>
             <li><a class="page-scroll" href="#syarat">Syarat Pendaftaran</a></li>
             <li><a class="page-scroll" href="#jalur">Jalur Pendaftaran</a></li>
@@ -88,7 +88,7 @@
                 </div>
             </div><br>
             <div>
-                <button type="submit" name="submit" class="btn btn-default tombol">simpan perubahan</button>
+                <button type="submit" name="submit" class="btn btn-default tombol">Daftar</button>
             </div>
 	    </form>
 
@@ -107,7 +107,7 @@
             echo "
                 <script>
                     alert('Data berhasil di tambah!');
-                    document.location.href = 'index.php';
+                    document.location.href = 'berhasiltambah.php';
                 </script>
             ";
 

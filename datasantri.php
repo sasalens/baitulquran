@@ -49,7 +49,7 @@
   <div class="data-santri">
     <div class="hero-section">
       <div class="container nopadding">
-            <h1>Data Santri</h1>
+            <h1 class="judul">Data Santri</h1>
             <a class="btn btn-default" href="tambah.php" role="button" style="font-family: open sans; border-radius: 30px; margin-bottom: 20px;">Tambah Data</a>
             <table class="table table-hover">
             <thead>
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="col-md-5">
-            <h1>Kontak Kami</h1>
+            <h2>Kontak Kami</h2>
             <p>Jl. Cempaka 5 Pokoh RT 01/RW IV Kel. Wonoboyo, Kec. Wonogiri, Kabupaten Wonogiri, Jawa Tengah 57615</p>
               <a href="https://www.facebook.com/bqwonogiri/" target="_blank" ><i class="ion-social-facebook"></i></a>  
               <a href="https://www.instagram.com/baitul_quran_wonogiri/?hl=id" target="_blank" ><i class="ion-social-instagram"></i></a>
