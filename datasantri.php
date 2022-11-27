@@ -18,6 +18,8 @@
 <link rel="stylesheet" href="css/style2.css">
 <!-- Resource style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/stylebaru.css" rel="stylesheet" type="text/css" media="all" />
+
 </head>
 <body>
 <div class="wrapper">
@@ -32,10 +34,6 @@
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="index.php">Home</a></li>
-            <li><a class="page-scroll" href="#keunggulan">Keunggulan</a></li>
-            <li><a class="page-scroll" href="#syarat">Syarat Pendaftaran</a></li>
-            <li><a class="page-scroll" href="#jalur">Jalur Pendaftaran</a></li>
-            <li><a class="page-scroll" href="#galeri">Galeri</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
           </ul>
         </div>
@@ -50,7 +48,7 @@
     <div class="hero-section">
       <div class="container nopadding">
             <h1 class="judul">Data Santri</h1>
-            <a class="btn btn-default" href="tambah.php" role="button" style="font-family: open sans; border-radius: 30px; margin-bottom: 20px;">Tambah Data</a>
+            <a class="btn btn-default" href="tambah.php" role="button" style="font-family: open sans; border-radius: 30px; padding: 3px 15px; margin-bottom: 30px;">Tambah Data</a>
             <table class="table table-hover">
             <thead>
                 <tr>
@@ -71,8 +69,8 @@
                 ?>
                     <tr>
                         <td>
-                            <a class="btn btn-default tombol1" href="hapus.php?id=<?= $data['id']; ?>" role="button">Hapus</a>
-                            <a class="btn btn-default tombol2" href="ubah.php?id=<?= $data['id']; ?>" role="button">Ubah</a>
+                            <a class="btn btn-default tombol-hapus" href="hapus.php?id=<?= $data['id']; ?>" role="button">Hapus</a>
+                            <a class="btn btn-default tombol-ubah" href="ubah.php?id=<?= $data['id']; ?>" role="button">Ubah</a>
                         </td>
                         <td><?= $data['id'] ?></td>
                         <td><?= $data['nama'] ?></td>

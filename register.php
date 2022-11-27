@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="shortcut icon" href="konten/icon.ico" type="image/x-icon" />
-<title>UBAH</title>
+<title>DAFTAR</title>
 <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="iLand Multipurpose Landing Page Template">
@@ -18,7 +18,6 @@
 <link rel="stylesheet" href="css/style2.css">
 <!-- Resource style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/stylebaru.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div class="wrapper">
@@ -45,94 +44,43 @@
 
   <div class="hero-section ubahdata">
     <div class="ubah">
-        <h1 class="judul">Ubah Data Santri</h1>
+        <h1 class="judul">Registrasi</h1>
 
-        <?php 
-        include "koneksi.php";
-
-        $id = $_GET['id'];
-
-        $sql = "SELECT * FROM psb WHERE id = '$id'";
-        $result = $kon->query($sql);
-
-        if ($result->num_rows > 0) {
-
-        ?>
-
-        <form class="form-horizontal edit" method="POST">
-        <?php  
-            $data = $result->fetch_assoc();
-        ?>
-
-            <div class="form-group">   
-                <div class="col-xs-6">
-                <label for="id">Id :</label><br><br>
-                <input type="id" name="id" class="form-control" id="id" value="<?= $data['id']; ?>">
-                </div>
-            </div><br>
+        <form class="form-horizontal edit" action="" method="POST">
             <div class="form-group">
                 <div class="col-xs-6">
+                  <label for="user" class="">Username :</label><br><br>
+                  <input type="user" name="user" class="form-control" id="user" placeholder="Masukkan username anda">
+                </div>  
+            </div><br>
+            <div class="form-group">
+              <div class="col-xs-6">
                 <label for="nama">Nama Lengkap :</label><br><br>
-                <input type="nama" name="nama" class="form-control" id="nama" value="<?= $data['nama']; ?>">
-                </div>
-            </div><br>
-            <div class="form-group">
-                <div class="col-xs-6">
-                <label for="alamat">Alamat Lengkap :</label><br><br>
-                <input type="alamat" name="alamat" class="form-control" id="alamat" value="<?= $data['alamat']; ?>">
-                </div>
-            </div><br>
-            <div class="form-group">
-                <div class="col-xs-6">
-                <label for="nohp">Nomor Hp :</label><br><br>
-                <input type="nohp" name="nohp" class="form-control" id="nohp" value="<?= $data['nohp']; ?>">
-                </div>
-            </div><br>
-            <div class="form-group">
-                <div class="col-xs-6">
-                <label for="ttl">Tempat Tanggal Lahir :</label><br><br>
-                <input type="date" name="ttl" class="form-control" id="ttl" value="<?= $data['ttl']; ?>">
-                </div>
-            </div><br>
-            <div class="form-group">
-                <div class="col-xs-6">
-                <label for="motivasi">Motivasi Masuk Pesantren :</label><br><br>
-                <input type="motivasi" name="motivasi" class="form-control" id="motivasi" value="<?= $data['motivasi']; ?>">
-                </div>
+                <input type="password" name="pasword" class="form-control" id="pasword" placeholder="Masukkan Password anda">
+              </div> 
             </div><br>
             <div>
-                <a href="datasantri.php"><button class="tombol">Batal</button></a>
-                <button type="submit" name="submit" class="tombol">simpan perubahan</button>
+                <button type="submit" name="submit" class="btn btn-default tombol">Register now</button>
             </div>
-        </form>
+	    </form>
 
         <?php 
-        } 
-        else	{
-            echo "$result";
-        }
-        $kon->close();
-        ?>
-
-        <?php 	
         include "koneksi.php";
 
         if(isset($_POST['submit'])){
-            mysqli_query($kon,"UPDATE psb SET
-            nama ='$_POST[nama]',
-            alamat ='$_POST[alamat]',
-            ttl ='$_POST[ttl]',
-            nohp ='$_POST[nohp]',
-            motivasi ='$_POST[motivasi]'
-        WHERE   id ='$_GET[id]'");
-
+            mysqli_query($kon,"INSERT INTO admin SET 
+            user ='$_POST[user]',
+            pasword ='$_POST[pasword]'
+            ");
+            
             echo "
-            <script>
-                    alert('Data berhasil di ubah!');
-                    document.location.href = 'datasantri.php';
+                <script>
+                    alert('Anda berhasil di tambahkan!');
+                    document.location.href = 'login.php';
                 </script>
             ";
-        } 
+
+            }
         ?>
     </div>
     
@@ -185,3 +133,10 @@
 <script src="js/jquery.subscribe.js"></script> 
 </body>
 </html>
+
+
+
+
+
+
+

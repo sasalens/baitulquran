@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="css/style2.css">
 <!-- Resource style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/stylebaru.css">
 </head>
 <body>
 <div class="wrapper">
@@ -32,10 +33,6 @@
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="index.php">Home</a></li>
-            <li><a class="page-scroll" href="#keunggulan">Keunggulan</a></li>
-            <li><a class="page-scroll" href="#syarat">Syarat Pendaftaran</a></li>
-            <li><a class="page-scroll" href="#jalur">Jalur Pendaftaran</a></li>
-            <li><a class="page-scroll" href="#galeri">Galeri</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
           </ul>
         </div>
@@ -52,40 +49,40 @@
 
         <form class="form-horizontal edit" action="" method="POST">
             <div class="form-group">
-                <label for="id" class="col-sm-1 control-label">Id :</label>
-                <div class="col-sm-10">
-                <input type="id" name="id" class="form-control" id="id" placeholder="Id akan terisi otomatis">
-                </div>
+                <div class="col-xs-6">
+                  <label for="id" class="">Id :</label><br><br>
+                  <input type="id" name="id" class="form-control" id="id" placeholder="Id akan terisi otomatis">
+                </div>  
             </div><br>
             <div class="form-group">
-                <label for="nama" class="col-sm-1 control-label">Nama :</label>
-                <div class="col-sm-10">
-                <input type="nama" name="nama" class="form-control" id="nama" placeholder="Nama Lengkap">
-                </div>
+              <div class="col-xs-6">
+                <label for="nama">Nama Lengkap :</label><br><br>
+                <input type="nama" name="nama" class="form-control" id="nama" placeholder="Masukkan nama lengkap">
+              </div> 
             </div><br>
             <div class="form-group">
-                <label for="alamat" class="col-sm-1 control-label">Alamat :</label>
-                <div class="col-sm-10">
-                <input type="alamat" name="alamat" class="form-control" id="alamat" placeholder="Alamat lengkap">
-                </div>
+              <div class="col-xs-6">
+                <label for="alamat">Alamat Lengkap :</label><br><br>
+                <input type="alamat" name="alamat" class="form-control" id="alamat" placeholder="Masukkan alamat lengkap">
+              </div>
             </div><br>
             <div class="form-group">
-                <label for="ttl" class="col-sm-1 control-label">TTL :</label>
-                <div class="col-sm-10">
-                <input type="ttl" name="ttl" class="form-control" id="ttl" placeholder="Tempat tanggal lahir">
-                </div>
+              <div class="col-xs-6">
+                <label for="ttl">Tempat Tanggal Lahir :</label><br><br>
+                <input type="date" name="ttl" class="form-control" id="ttl">
+              </div> 
             </div><br>
             <div class="form-group">
-                <label for="nohp" class="col-sm-1 control-label">No. Hp :</label>
-                <div class="col-sm-10">
-                <input type="nohp" name="nohp" class="form-control" id="nohp" placeholder="Masukkan no hp">
-                </div>
+              <div class="col-xs-6">
+                <label for="nohp">Nomor Hp :</label><br><br>
+                <input type="nohp" name="nohp" class="form-control" id="nohp" placeholder="Masukkan nomor hp">
+              </div>
             </div><br>
             <div class="form-group">
-                <label for="motivasi" class="col-sm-1 control-label">Motivsi :</label>
-                <div class="col-sm-10">
-                <input type="motivasi" name="motivasi" class="form-control" id="motivasi" placeholder="Motivasi masuk pesantren">
-                </div>
+              <div class="col-xs-6">
+              <label for="motivasi">Motivasi Masuk Pesantren :</label><br><br>
+                <textarea type="motivasi" name="motivasi" id="motivasi" placeholder="Motivasi masuk pesantren" class="form-control" rows="3"></textarea>
+              </div>
             </div><br>
             <div>
                 <button type="submit" name="submit" class="btn btn-default tombol">Daftar</button>
