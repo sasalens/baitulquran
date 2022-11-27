@@ -103,6 +103,7 @@
             <div> 
                 <button type="submit" name="batal" class="tombol">Batal</button>
                 <button type="submit" name="submit" class="tombol">simpan perubahan</button>
+                <li><a class="page-scroll" href="index.php">Log Out  <i class="ion-log-out"></i></a></li>
             </div>
         </form>
 
