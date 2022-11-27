@@ -132,7 +132,7 @@ body {
         <input type="text" placeholder="username" name="user"/>
         <input type="password" placeholder="password" name="pasword"/>
         <button name="submit">Login</button>
-        <p class="message">Not registered? <a href="#">Create an account</a></p>
+        <p class="message">Not registered? <a href="register.php">Create an account</a></p>
         </form>
     </div>
     </div>

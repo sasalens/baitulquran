@@ -5,6 +5,7 @@
 .data-santri .judul {
     font-size: 50px;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 
 .data-santri table {
@@ -21,6 +22,7 @@
     background-color: #AC4425;
     color: white;
     padding: 3px 15px;
+    margin: 0px 10px 0 0;
 }
 
 .data-santri .tombol-ubah {
@@ -29,6 +31,7 @@
     background-color: #5F8D4E;
     color: white;
     padding: 3px 15px;
+    margin: 0px -40px 0 0;
 }
 
 .ubah .judul {
@@ -45,12 +48,13 @@
     font-family: open sans;
 }
 
-.ubah .edit .tombol {
+.tombol {
     text-transform: uppercase;
+    font-size: 14px;
     border: none;
     border-radius: 30px;
     margin: 20px 5px 0 0;
     background-color: #5F8D4E;
     color: white;
-    padding: 3px 15px;
+    padding: 7px 15px;
 }

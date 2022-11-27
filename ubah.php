@@ -100,8 +100,8 @@
                 <input type="motivasi" name="motivasi" class="form-control" id="motivasi" value="<?= $data['motivasi']; ?>">
                 </div>
             </div><br>
-            <div>
-                <a href="datasantri.php"><button class="tombol">Batal</button></a>
+            <div> 
+                <button type="submit" name="batal" class="tombol">Batal</button>
                 <button type="submit" name="submit" class="tombol">simpan perubahan</button>
             </div>
         </form>
@@ -117,6 +117,14 @@
         <?php 	
         include "koneksi.php";
 
+        if(isset($_POST['batal'])){
+          echo "
+          <script>
+            alert('Perubahan akan terhapus');
+            document.location.href = 'datasantri.php';
+          </script>";
+        }
+
         if(isset($_POST['submit'])){
             mysqli_query($kon,"UPDATE psb SET
             nama ='$_POST[nama]',
@@ -127,10 +135,10 @@
         WHERE   id ='$_GET[id]'");
 
             echo "
-            <script>
+              <script>
                     alert('Data berhasil di ubah!');
                     document.location.href = 'datasantri.php';
-                </script>
+              </script>
             ";
         } 
         ?>

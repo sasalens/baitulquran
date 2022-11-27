@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="css/style2.css">
 <!-- Resource style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/stylebaru.css">
 </head>
 <body>
 <div class="wrapper">
@@ -44,7 +45,7 @@
 
   <div class="hero-section ubahdata">
     <div class="ubah">
-        <h1 class="judul">Registrasi</h1>
+        <h1 class="judul" style="margin-bottom: 50px;">Registrasi</h1>
 
         <form class="form-horizontal edit" action="" method="POST">
             <div class="form-group">
@@ -60,7 +61,7 @@
               </div> 
             </div><br>
             <div>
-                <button type="submit" name="submit" class="btn btn-default tombol">Register now</button>
+                <button type="submit" name="submit" class="tombol">Register now</button>
             </div>
 	    </form>
 

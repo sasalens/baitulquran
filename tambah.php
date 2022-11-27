@@ -85,7 +85,7 @@
               </div>
             </div><br>
             <div>
-                <button type="submit" name="submit" class="btn btn-default tombol">Daftar</button>
+                <button type="submit" name="submit" class="tombol">Daftar</button>
             </div>
 	    </form>
 
@@ -103,7 +103,7 @@
             
             echo "
                 <script>
-                    alert('Data berhasil di tambah!');
+                    alert('Pendaftaran berhasil!');
                     document.location.href = 'berhasiltambah.php';
                 </script>
             ";
