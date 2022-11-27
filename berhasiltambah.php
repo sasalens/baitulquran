@@ -49,7 +49,7 @@
         <div class="hero-section berhasil">
             <div class="hero-content">
                 <h1>Pendaftaran Berhasil!</h1>
-                <p>Anda telah terdaftar, id pendaftaran anda adalah 937</p>
+                <p>Anda telah terdaftar di IMTAQ SHIGOR BAITUL QUR'AN WONOGIRI, id pendaftaran anda adalah 404</p>
                 <div>
                 <a href="index.php" class="btn btn-action wow fadeInUp">Kembali ke beranda</a> 
                 <a href="#" class="btn btn-action wow fadeInUp">Bukti Pendaftaran</a> 
@@ -73,6 +73,7 @@
         <div class="col-md-5">
             <h1>Kontak Kami</h1>
             <p>Jl. Cempaka 5 Pokoh RT 01/RW IV Kel. Wonoboyo, Kec. Wonogiri, Kabupaten Wonogiri, Jawa Tengah 57615</p>
+              <a href="https://api.whatsapp.com/send/?phone=6282111764236&text&type=phone_number&app_absent=0" ><i class="ion-social-whatsapp"></i></a>
               <a href="https://www.facebook.com/bqwonogiri/" target="_blank" ><i class="ion-social-facebook"></i></a>  
               <a href="https://www.instagram.com/baitul_quran_wonogiri/?hl=id" target="_blank" ><i class="ion-social-instagram"></i></a>
               <a href="#" ><i class="ion-social-twitter"></i></a>

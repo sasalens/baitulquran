@@ -3,9 +3,10 @@
 }
 
 .data-santri .judul {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 900;
     margin-bottom: 30px;
+    color: #285430;
 }
 
 .data-santri table {

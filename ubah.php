@@ -34,6 +34,7 @@
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="index.php">Home</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
+            <li><a class="page-scroll" href="index.php">Log Out  <i class="ion-log-out"></i></a></li>
           </ul>
         </div>
       </div>
@@ -103,7 +104,6 @@
             <div> 
                 <button type="submit" name="batal" class="tombol">Batal</button>
                 <button type="submit" name="submit" class="tombol">simpan perubahan</button>
-                <li><a class="page-scroll" href="index.php">Log Out  <i class="ion-log-out"></i></a></li>
             </div>
         </form>
 
@@ -165,6 +165,7 @@
         <div class="col-md-5">
             <h1>Kontak Kami</h1>
             <p>Jl. Cempaka 5 Pokoh RT 01/RW IV Kel. Wonoboyo, Kec. Wonogiri, Kabupaten Wonogiri, Jawa Tengah 57615</p>
+              <a href="https://api.whatsapp.com/send/?phone=6282111764236&text&type=phone_number&app_absent=0" ><i class="ion-social-whatsapp"></i></a>
               <a href="https://www.facebook.com/bqwonogiri/" target="_blank" ><i class="ion-social-facebook"></i></a>  
               <a href="https://www.instagram.com/baitul_quran_wonogiri/?hl=id" target="_blank" ><i class="ion-social-instagram"></i></a>
               <a href="#" ><i class="ion-social-twitter"></i></a>
