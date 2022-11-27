@@ -76,7 +76,6 @@
               <a href="https://api.whatsapp.com/send/?phone=6282111764236&text&type=phone_number&app_absent=0" ><i class="ion-social-whatsapp"></i></a>
               <a href="https://www.facebook.com/bqwonogiri/" target="_blank" ><i class="ion-social-facebook"></i></a>  
               <a href="https://www.instagram.com/baitul_quran_wonogiri/?hl=id" target="_blank" ><i class="ion-social-instagram"></i></a>
-              <a href="#" ><i class="ion-social-twitter"></i></a>
               <a href="https://www.youtube.com/channel/UClJKR6-GzLmdzq0nbmCwdHw?sub_confirmation=1" target="_blank" ><i class="ion-social-youtube"></i></a>
         </div>
       </div>
