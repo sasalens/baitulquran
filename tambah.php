@@ -85,6 +85,11 @@
                 <textarea type="motivasi" name="motivasi" id="motivasi" placeholder="Motivasi masuk pesantren" class="form-control" rows="3"></textarea>
               </div>
             </div><br>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Dengan ini saya setuju dengan segala persyaratan.
+              </label>
+            </div>
             <div>
                 <button type="submit" name="submit" class="tombol">Daftar</button>
             </div>
