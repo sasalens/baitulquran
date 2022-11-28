@@ -68,8 +68,8 @@ if (!isset($_SESSION['user'])) {
                     <td>Id</td>
                     <td>Nama</td>
                     <td>Alamat</td>
-                    <td>TTL</td>  
-                    <td>No. Hp</td>
+                    <td>Tanggal Lahir</td>  
+                    <td>Nomor Hp</td>
                     <td>Motivasi Masuk Pesantren</td>              
                 </tr>
             </thead>

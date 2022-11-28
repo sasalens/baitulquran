@@ -91,7 +91,7 @@
             </div><br>
             <div class="form-group">
                 <div class="col-xs-8">
-                <label for="ttl">Tempat Tanggal Lahir :</label><br><br>
+                <label for="ttl">Tanggal Lahir :</label><br><br>
                 <input type="date" name="ttl" class="form-control" id="ttl" value="<?= $data['ttl']; ?>">
                 </div>
             </div><br>
