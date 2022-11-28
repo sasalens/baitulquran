@@ -2,12 +2,22 @@
  
 include 'koneksi.php';
  
-if (isset($_POST['submit'])) {
+error_reporting(0);
  
-    $sql = mysqli_query($kon, "SELECT * FROM admin WHERE user='$_POST[user]' AND pasword='$_POST[pasword]'");
-
-    $row = mysqli_num_rows($sql);
-    if ($row > 0) {
+session_start();
+ 
+if (isset($_SESSION['user'])) {
+    header("Location: datasantri.php");
+}
+ 
+if (isset($_POST['submit'])) {
+    $user = $_POST['user'];
+    $pasword = $_POST['pasword'];
+ 
+    $sql = "SELECT * FROM admin WHERE user='$user' AND pasword='$pasword'";
+    $result = mysqli_query($kon, $sql);
+    if ($result->num_rows > 0) {
+        $row = mysqli_fetch_assoc($result);
         $_SESSION['user'] = $row['user'];
         header("Location: datasantri.php");
     } else {
@@ -125,12 +135,15 @@ if (isset($_POST['submit'])) {
     </style>
 </head>
 <body>
+    <div class="alert alert-warning" role="alert">
+        <?php echo $_SESSION['error']?>
+    </div>
     <div class="login-page">
     <div class="form">
         <h1 class="login">Login</h1>
         <form class="login-form" action="" method="POST">
-        <input type="text" placeholder="username" name="user"/>
-        <input type="password" placeholder="password" name="pasword"/>
+        <input type="text" placeholder="username" name="user" value="<?php echo $user; ?>" required/>
+        <input type="password" placeholder="password" name="pasword" value="<?php echo $_POST['pasword']; ?>" required/>
         <button name="submit">Login</button>
         <p class="message">Not registered? <a href="register.php">Create an account</a></p>
         </form>

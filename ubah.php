@@ -34,7 +34,7 @@
           <ul class="nav navbar-nav">
             <li><a class="page-scroll" href="index.php">Home</a></li>
             <li><a class="page-scroll" href="#kontak">Kontak</a></li>
-            <li><a class="page-scroll" href="index.php">Log Out  <i class="ion-log-out"></i></a></li>
+            <li><a class="page-scroll" href="logout.php">Log Out  <i class="ion-log-out"></i></a></li>
           </ul>
         </div>
       </div>
