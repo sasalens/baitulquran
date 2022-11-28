@@ -66,39 +66,39 @@
         ?>
 
             <div class="form-group">   
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="id">Id :</label><br><br>
                 <input type="id" name="id" class="form-control" id="id" value="<?= $data['id']; ?>">
                 </div>
             </div><br>
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="nama">Nama Lengkap :</label><br><br>
                 <input type="nama" name="nama" class="form-control" id="nama" value="<?= $data['nama']; ?>">
                 </div>
             </div><br>
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="alamat">Alamat Lengkap :</label><br><br>
                 <input type="alamat" name="alamat" class="form-control" id="alamat" value="<?= $data['alamat']; ?>">
                 </div>
             </div><br>
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="nohp">Nomor Hp :</label><br><br>
                 <input type="nohp" name="nohp" class="form-control" id="nohp" value="<?= $data['nohp']; ?>">
                 </div>
             </div><br>
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="ttl">Tempat Tanggal Lahir :</label><br><br>
                 <input type="date" name="ttl" class="form-control" id="ttl" value="<?= $data['ttl']; ?>">
                 </div>
             </div><br>
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                 <label for="motivasi">Motivasi Masuk Pesantren :</label><br><br>
-                <input type="motivasi" name="motivasi" class="form-control" id="motivasi" value="<?= $data['motivasi']; ?>">
+                <textarea type="motivasi" name="motivasi" id="motivasi" placeholder="Motivasi masuk pesantren" class="form-control" rows="3" style="height: 120px;"><?= $data['motivasi']; ?></textarea>
                 </div>
             </div><br>
             <div> 

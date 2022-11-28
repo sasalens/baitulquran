@@ -46,43 +46,43 @@
 
   <div class="hero-section ubahdata">
     <div class="ubah">
-        <h1 class="judul">Tambah Data Santri</h1>
+        <h1 class="judul">Form Pendaftaran</h1>
 
         <form class="form-horizontal edit" action="" method="POST">
             <div class="form-group">
-                <div class="col-xs-6">
+                <div class="col-xs-8">
                   <label for="id" class="">Id :</label><br><br>
                   <input type="id" name="id" class="form-control" id="id" placeholder="Id akan terisi otomatis">
                 </div>  
             </div><br>
             <div class="form-group">
-              <div class="col-xs-6">
+              <div class="col-xs-8">
                 <label for="nama">Nama Lengkap :</label><br><br>
                 <input type="nama" name="nama" class="form-control" id="nama" placeholder="Masukkan nama lengkap">
               </div> 
             </div><br>
             <div class="form-group">
-              <div class="col-xs-6">
+              <div class="col-xs-8">
                 <label for="alamat">Alamat Lengkap :</label><br><br>
                 <input type="alamat" name="alamat" class="form-control" id="alamat" placeholder="Masukkan alamat lengkap">
               </div>
             </div><br>
             <div class="form-group">
-              <div class="col-xs-6">
+              <div class="col-xs-8">
                 <label for="ttl">Tempat Tanggal Lahir :</label><br><br>
                 <input type="date" name="ttl" class="form-control" id="ttl">
               </div> 
             </div><br>
             <div class="form-group">
-              <div class="col-xs-6">
+              <div class="col-xs-8">
                 <label for="nohp">Nomor Hp :</label><br><br>
                 <input type="nohp" name="nohp" class="form-control" id="nohp" placeholder="Masukkan nomor hp">
               </div>
             </div><br>
             <div class="form-group">
-              <div class="col-xs-6">
+              <div class="col-xs-8">
               <label for="motivasi">Motivasi Masuk Pesantren :</label><br><br>
-                <textarea type="motivasi" name="motivasi" id="motivasi" placeholder="Motivasi masuk pesantren" class="form-control" rows="3"></textarea>
+                <textarea type="motivasi" name="motivasi" id="motivasi" placeholder="Motivasi masuk pesantren" class="form-control" rows="3" style="height: 120px;"></textarea>
               </div>
             </div><br>
             <div class="checkbox">
