@@ -8,6 +8,13 @@ if (!isset($_SESSION['user'])) {
  
 ?>
 
+<?php
+$sumber = 'http://localhost/baitulquran/json.php';
+$konten = file_get_contents($sumber);
+$data = json_decode($konten, true);
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -74,24 +81,28 @@ if (!isset($_SESSION['user'])) {
                 </tr>
             </thead>
             <tbody>
-                <?php
-                include "koneksi.php";
-                $query = mysqli_query($kon, 'SELECT * FROM `psb` ORDER BY `id` ASC');
-                while ($data = mysqli_fetch_array($query)) {
+                <?php 
+                for($a=0; $a < count($data); $a++){
+                  print "<tr>";
+                  // print "<td>
+                  //     <a class='btn btn-default tombol-hapus' href='hapus.php?id=". $data[$a]['id'] . "' role='button'>Hapus</a>
+                  //     <a class='btn btn-default tombol-ubah' href='ubah.php?id=". $data[$a]['id'] . "' role='button'>Ubah</a>
+                  //     </td>";
+                  // print "<td>";
+                  ?>
+                          <td><a class='btn btn-default tombol-hapus' href='hapus.php?id=<?php echo $data[$a]['id'] ?>' role='button'>Hapus</a>
+                          <a class='btn btn-default tombol-ubah' href='ubah.php?id=<?php echo  $data[$a]['id'] ?>' role='button'>Ubah</a></td>
+                  <?php
+                  print "</td>";
+                  print "<td>".$data[$a]['id']."</td>";
+                  print "<td>".$data[$a]['nama']."</td>";
+                  print "<td>".$data[$a]['alamat']."</td>";
+                  print "<td>".$data[$a]['ttl']."</td>";
+                  print "<td>".$data[$a]['nohp']."</td>";
+                  print "<td>".$data[$a]['motivasi']."</td>";
+                  print "</tr>";
+                }
                 ?>
-                    <tr>
-                        <td>
-                            <a class="btn btn-default tombol-hapus" href="hapus.php?id=<?= $data['id']; ?>" role="button">Hapus</a>
-                            <a class="btn btn-default tombol-ubah" href="ubah.php?id=<?= $data['id']; ?>" role="button">Ubah</a>
-                        </td>
-                        <td><?= $data['id'] ?></td>
-                        <td><?= $data['nama'] ?></td>
-                        <td><?= $data['alamat'] ?></td>
-                        <td><?= $data['ttl'] ?></td>
-                        <td><?= $data['nohp'] ?></td>
-                        <td><?= $data['motivasi'] ?></td>
-                    </tr>
-                <?php } ?>
             </tbody>
             </table>
       </div>
