@@ -52,7 +52,7 @@
                 <p>Anda telah terdaftar di IMTAQ SHIGOR BAITUL QUR'AN WONOGIRI, id pendaftaran anda adalah 404</p>
                 <div>
                 <a href="index.php" class="btn btn-action wow fadeInUp">Kembali ke beranda</a> 
-                <a href="detail.php?id=<?= $data['id']; ?>" class="btn btn-action wow fadeInUp">Bukti Pendaftaran</a> 
+                <a href="login.php" class="btn btn-action wow fadeInUp">Lihat data santri</a> 
                 </div>
             </div>
         </div>
